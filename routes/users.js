@@ -5,9 +5,6 @@ var models = require('../models');
 const passport = require('passport');
 const connectEnsure = require('connect-ensure-login');
 
-// JWT Auth
-const auth = require("../config/auth");
-
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
